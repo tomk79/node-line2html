@@ -1,0 +1,33 @@
+{
+  "name": "line2html",
+  "version": "0.0.1-alpha.1",
+  "description": "Convert LINE Message Log to HTML Document.",
+  "main": "node/main.js",
+  "scripts": {
+    "test": "mocha --ui tdd ./tests/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomk79/node-line2html.git"
+  },
+  "author": "Tomoya Koyanagi <tomk79@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomk79/node-line2html/issues"
+  },
+  "homepage": "https://github.com/tomk79/node-line2html#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-minify-css": "^1.2.3",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.2.0",
+    "gulp-twig": "^0.5.0",
+    "gulp-uglify": "^1.5.2",
+    "mocha": "^2.1.0"
+  }
+}
